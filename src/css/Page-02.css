@@ -1,0 +1,77 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: var(--color-2);
+}
+.section0{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 64px;
+    width: 400px;
+    height: 200px;
+}
+.section0 h1{
+    font-family: "Avenir-Heavy";
+    font-size: 56px;
+    line-height: 1.2;
+}
+.section0 p{
+    font-family: "Avenir-Roman";
+    font-size: 25px;
+    line-height: 1.5;
+}
+button{
+    background-color: var(--color-1);
+    color: var(--color-2);
+    font-family: "Avenir-Roman";
+    border: none;
+    border-radius: 16px;
+    width: 180px;
+    height: 40px;
+    margin-top: 160px;
+    margin-left: 64px;
+}
+.section1{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -450px;
+    gap: 35px;
+}
+.section1 :nth-child(1){
+    width: 350px;
+    height: 400px;
+}
+.section1 :nth-child(2){
+    width: 350px;
+    height: 400px;
+    margin-top: 100px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.section2 h1{
+    font-family: "Avenir-Hearvy";
+    color: var(--color-3);
+}
+.image1 img{
+    width: 370px;
+    height: 350px;
+}
+.image2 img{
+    width: 370px;
+    height: 350px;
+}
+.image3 img{
+    width: 370px;
+    height: 350px;
+}
