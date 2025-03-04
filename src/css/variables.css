@@ -1,0 +1,37 @@
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #252525;
+    --color-3: #252525cc; /* 80% */
+    --color-4: #25252540; /* 25% */
+    --color-5: #2525258C; /* 55% */
+    --color-6: #050505;
+    --color-7: #F6F6F6;
+    --color-8: #333333;
+    --color-9: #111111;
+    --color-10: #685FD4;
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/fonts/Playfair/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/fonts/WorkSans/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/fonts/WorkSans/WorkSans-Medium.ttf);
+}
