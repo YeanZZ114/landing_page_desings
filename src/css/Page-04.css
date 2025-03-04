@@ -1,0 +1,82 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 67px;
+}
+
+.image{
+    position: relative;
+    height: 932px;
+    width: 700px;
+}
+
+.info{
+    padding: 0 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.info__up{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+}
+
+.info__up h1{
+    font-size: 64px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+}
+
+.info__up p{
+    color: var(--color-3);
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+
+.exp a{
+    font-size: 18px;
+    font-family: "Avenir-Roman";
+    padding: 18px 48px;
+    text-decoration: none;
+    background-color: var(--color-2);
+    border-radius: 20px;
+    color: var(--color-1);
+}
+
+.info__down{
+    width: 450px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__down .first{
+    gap: 4px;
+}
+
+.sec{
+    gap: 4px;
+}
+.info__down h3{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-5);
+}
+
+.info__down p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-3);
+}
