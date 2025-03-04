@@ -1,0 +1,43 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: row;
+}
+
+.tittle h1{
+    font-family: "Avenir-Heavy";
+    width: 600px;
+    height: 80px;
+    font-size: 80px;
+    margin-left: 64px;
+    margin-top: 60px;
+}
+.description{
+    font-family: "Avenir-Roman";
+    font-size: 25px;
+    width: 500px;
+    margin-left: 750px;
+    margin-top: -70px;
+}
+.description button{
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border: none;
+    border-radius: 16px;
+    padding: 16px 32px;
+    margin-top: 10px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 1240px;
+    height: 830px;
+}
