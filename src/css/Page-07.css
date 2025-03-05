@@ -1,0 +1,150 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 304px 1fr;
+    grid-template-areas: 
+        "header header header header"
+        "main main main main";
+
+}
+
+header {
+    display: flex;
+    grid-area: header;
+    padding: 64px;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 77px;
+}
+main{
+    display: grid;
+    grid-area: main;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "info1 info2 info3 info4"
+        "main main main main";
+}
+
+.cont1 {
+    grid-area: info1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.cont2 {
+    grid-area: info2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.cont3 {
+    grid-area: info3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.cont4 {
+    grid-area: info4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cont1, .cont2, .cont3, .cont4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+
+.cont1 img, .cont2 img, .cont3 img, .cont4 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    padding: 24px 45px 10px;
+}
+
+.text h2{
+    font-size: 40px;
+    color: var(--color-11);
+    font-family: "Avenir-Heavy";
+}
+
+.text p{
+    font-size: 24px;
+    color: var(--color-3);
+    font-family: "Avenir-Roman";
+}
+.card {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0 10%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    background-color: red;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 24px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+}
+
+.overlay h2{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+}
+
+.overlay p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-2);
+    white-space: normal;
+    word-wrap: break-word;
+
+}
