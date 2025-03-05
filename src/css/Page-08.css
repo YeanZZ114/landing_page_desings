@@ -1,0 +1,64 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 67px;
+    gap: 190px;
+}
+body{
+    margin: 0% 2% 0 2%;
+    display: grid;
+    background-color: var(--color-12);
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+}
+.info{
+    grid-area: right;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 80vh  ;
+}
+
+
+.info h1{
+    font-family: "WorkSans-Bold";
+    color: var(--color-1);
+    font-size: 88px;
+    width: 500px;
+}
+
+.info p{
+    font-family: "WorkSans-Light";
+    color: var(--color-1);
+    font-size: 24px;
+}
+
+a{
+    font-family: "WorkSans-Medium";
+    color: var(--color-13);
+    padding: 24px 50px;
+    background-color: var(--color-14);
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-bottom: 118px;
+}
+.image{
+    position: relative;
+    margin-left: 5%;
+    width: 100%;
+
+}
+.image img {
+    width: 700px;
+}
